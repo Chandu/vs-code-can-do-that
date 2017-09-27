@@ -6,19 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="prims/prism.css">
+  <link rel="stylesheet" href="prism/prism.css">
   <title>VS Code Can Do That?</title>
 </head>
 
 <body>
-  <section class="hero is-large is-primary">
+  <section class="hero is-primary is-small">
     <div class="hero-body">
-      <h1 class="is-size-1">Visual Studio Code Can Do That?</h1>
-      <p class="is-size-4">All the best things about Visual Studio Code that nobody ever bothered to tell you</p>
+      <div class="container has-text-centered">
+        <h1 class="is-size-1">Visual Studio Code Can Do That?</h1>
+        <p class="is-size-4">All the best things about Visual Studio Code that nobody ever bothered to tell you</p>
+        <br>
+        <div class="container has-text-centered">
+          <img class="inline is-centered image circle is-64x64" src="images/me.jpeg">
+          <p>Brought to you by <a class="has-text-weight-bold" href="https://www.twitter.com/burkeholland">@burkeholland</a></p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="hero is-primary-invert">
+  <section class="hero is-medium is-primary-invert">
     <div class="hero-body">
       <h1 class="is-size-1">My Setup</h1>
       <hr>
@@ -27,13 +34,12 @@
           <section class="section">
             <ul>
               <li>
-                <a href="#" class="is-size-2">Hop Light Theme</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=bubersson.theme-hop-light" class="is-size-2">Hop Light Theme</a>
               </li>
               <li>
-                <a href="#" class="is-size-2">Material Icons</a>
+                <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme" class="is-size-2">Material Icons</a>
               </li>
             </ul>
-            <pre><code class="language-css">p { color: red }</code></pre>
           </section>
         </div>
         <div class="column is-7">
@@ -49,7 +55,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from
               the Command Pallete.</p>
           </section>
@@ -68,7 +74,12 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
+            <p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult
+              to master. VS Code supports Emmet by default.</p>
+            <br>
+            <p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a>              to learn more about the Emmet syntax.
+            </p>
           </section>
         </div>
         <div class="column is-7">
@@ -84,9 +95,12 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Wrap any text with a tag. This box also supports Emmet.</p><br>
-            <p>If you have multiple lines that all need to be wrapped in separate tags, use the <code>*</code> symbol.</p>
+            <p>If you have multiple lines that all need to be wrapped in separate tags, use the <code>*</code> symbol.</p><br>
+            <p>A good idea is to add a keyboard shortcut for this as it's paticularly useful for wrapping links with anchor.
+              I have this mapped to <code>Option + Shift + W</code> in my setup. tags.
+            </p>
           </section>
         </div>
         <div class="column is-7">
@@ -102,7 +116,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Emmet can be enabled in JXS and will even expand <code>class</code> to <code>className</code>.</p>
             <br>
             <p>Add the following line to your <strong>User Preferences...</strong></p>
@@ -118,6 +132,8 @@
       </div>
     </div>
   </div>
+
+  A shell script is created in case you want to do Git based deployment
 
   <div class="hero is-medium is-primary">
     <div class="hero-body">
@@ -159,7 +175,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are
               especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are
               used.
@@ -189,7 +205,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>You can open an external terminal session in the current directory at any time with the keyboard shortcut...
             </p>
             <br>
@@ -199,7 +215,7 @@
           </section>
         </div>
         <div class="column is-7">
-          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-75cd6389-482e-4ee6-a6e4-e6c1670beb53/open-external-terminal.mp4?sv=2015-07-08&sr=c&si=c2947134-1a10-49a8-b571-4e9ce06388ab&sig=eolxfRq2YlMSdshO6goESWYjYbWbCIEEvX2%2BZA6s8Go%3D&st=2017-09-24T22%3A00%3A55Z&se=2117-09-24T22%3A00%3A55Z"></video>
+          <video controls src="https://codecandothat.blob.core.windows.net/asset-216237f8-2333-4f0f-81dd-4ef80d2e077c/open-external-terminal.mp4?sv=2015-07-08&sr=c&si=e7d728ae-1a5b-4d8b-952f-d01e54d42f06&sig=AVGNbelOfFR6BI%2FMKD8e4gytBqR4OeQAuYMrNrTa2eo%3D&st=2017-09-27T14%3A58%3A46Z&se=2117-09-27T14%3A58%3A46Z"></video>
         </div>
       </div>
     </div>
@@ -211,7 +227,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>It is possible to run and debug any JavaScript file without any debug launch configuration. Just select "Node.js"
               from the dropdown menu on the debug tab and press the debug ▶️ icon. All debugging features are supported.
             </p>
@@ -230,7 +246,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p>
             <br>
             <p>
@@ -254,12 +270,12 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>A full featured, high-performance terminal. Right inside of VS Code.</p>
           </section>
         </div>
         <div class="column is-7">
-          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-13e4ad03-604a-4b2e-b143-377d03a650e9/integrated-terminal.mp4?sv=2015-07-08&sr=c&si=10f78c6d-e257-4b3e-8999-28356c7d6409&sig=%2BBvHC8AIVaaLwiIrsHrPhu5QL8xwuXDTFFLixghdgTU%3D&st=2017-09-24T22%3A21%3A08Z&se=2117-09-24T22%3A21%3A08Z"></video>
+          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-13e4ad03-604a-4b2e-b143-377d03a650e9/integrated-terminal.mp4?sv=2015-07-08&sr=c&si=2b4a36fe-5fde-4c49-bc23-b2dcf3fcd7fd&sig=AJ0oVtRY%2FfidWE5jcutUv68SQO%2BwZ80okG70D7pAXBc%3D&st=2017-09-25T15%3A14%3A46Z&se=2117-09-25T15%3A14%3A46Z"></video>
         </div>
       </div>
     </div>
@@ -271,7 +287,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>Intellisense is provided in JSON files. This works not only in the User Preferences file, but also in package.json
               files allowing you to see the current version of any npm package as you import it.</p>
             <br>
@@ -291,7 +307,7 @@
       <hr>
       <div class="columns">
         <div class="column is-5">
-          <section class="section">
+          <section>
             <p>VS Code supports multiple debug processes running at the same time. This is called a "compound" launch configuration.
               This is useful when debugging a server component and a front-end component (such as React, Angular or Vue)
               that is using a Webpack development server for hot reloads.</p>
@@ -304,7 +320,119 @@
     </div>
   </div>
 
-  <script src="prism/prism/js"></script>
+  <div class="hero is-medium is-primary">
+    <div class="hero-body">
+      <h1 class="is-size-1">Insiders Build</h1>
+      <hr>
+      <div class="columns">
+        <div class="column is-5">
+          <section>
+            <p>The <a class="has-text-weight-bold is-underlined" href="https://code.visualstudio.com/Insiders/">VS Code Insiders</a>              build contains all of the latest and greatest features that might not be available in the stable release yet.
+              You can download and install the Insiders Build right alongside the stable release.</p>
+          </section>
+        </div>
+        <div class="column is-7">
+          <img src="images/vs-code-insiders.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero is-medium is-primary-invert">
+    <div class="hero-body">
+      <h1 class="is-size-1">Settings Sync</h1>
+      <hr>
+      <div class="columns">
+        <div class="column is-5">
+          <section>
+            <p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a>              extension to synchronize your theme, user preferences and installed plugins across installations of VS Code.
+              Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of
+              VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.
+            </p>
+            <br>
+            <p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>
+          </section>
+        </div>
+        <div class="column is-7">
+          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-0eb6a316-8aee-465e-8073-cdfc8ae54532/settings-sync.mp4?sv=2015-07-08&sr=c&si=e4a4e08f-5627-4339-81c2-038fb2b2ca5f&sig=glA9CScqBrgFjfiNhK8VQwWxq2IlECVdASb7OslXKxU%3D&st=2017-09-26T18%3A14%3A58Z&se=2117-09-26T18%3A14%3A58Z"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero is-medium is-primary">
+    <div class="hero-body">
+      <h1 class="is-size-1">Multiple Launch Configurations</h1>
+      <hr>
+      <div class="columns">
+        <div class="column is-5">
+          <section>
+            <p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration".
+              This is useful when dealing with a font-end heavy application that contains both a server comonent and some
+              sort of built-in development server (such as Webpack) which is hanlding live-reloads.
+            </p>
+            <br>
+            <p>This video uses the following launch configuration to debug both an application that has both server (Express)
+              and front-end (React) components and uses the following launch configuration (launch.json).</p>
+            <br>
+            <pre><code class="language-javascript">{
+  "compounds": [
+    {
+      "name": "Launch Browser/Server",
+      "configurations": ["Launch Browser", "Launch Server"]
+    }
+  ],
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Browser",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceRoot}/src"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Server",
+      "program": "${workspaceRoot}/server/server.js"
+    }
+  ]
+}</code></pre>
+            <br>
+            <p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a>              extension installed to debug applications running in Chrome.</p>
+          </section>
+        </div>
+        <div class="column is-7">
+          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-0eb6a316-8aee-465e-8073-cdfc8ae54532/settings-sync.mp4?sv=2015-07-08&sr=c&si=e4a4e08f-5627-4339-81c2-038fb2b2ca5f&sig=glA9CScqBrgFjfiNhK8VQwWxq2IlECVdASb7OslXKxU%3D&st=2017-09-26T18%3A14%3A58Z&se=2117-09-26T18%3A14%3A58Z"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero is-medium is-primary-invert">
+    <div class="hero-body">
+      <h1 class="is-size-1">Deploying Apps</h1>
+      <hr>
+      <div class="columns">
+        <div class="column is-5">
+          <section>
+            <p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice">Azure App Service Tools</a>              extension. The extension creates the site via a wizard and then generates a shell script which automates the
+              CLI commands to check code into Git and then pull into Azure.
+            </p>
+            <br>
+            <p>When using AppService for Linux, <code>npm install</code> and <code>npm start</code> are run automatically by
+              Azure.
+            </p>
+          </section>
+        </div>
+        <div class="column is-7">
+          <video autoplay loop src="https://codecandothat.blob.core.windows.net/asset-c0d9aebb-caad-4300-b02e-0ca3b2d5d949/publish-to-azure.mp4?sv=2015-07-08&sr=c&si=c12be80a-4675-422f-8cb4-ad43bc95fb50&sig=tRNHbbm0vPP7Y9KaQPHLiOGwSc0l%2BSCH5G2b%2FlaSUiM%3D&st=2017-09-27T16%3A59%3A27Z&se=2117-09-27T16%3A59%3A27Z"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="prism/prism.js"></script>
 
 </body>
 

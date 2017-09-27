@@ -6149,3 +6149,13 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+
+.circle {
+  border-radius: 50%;
+  border: 3px solid white; }
+
+a {
+  text-decoration: none; }
+
+.inline {
+  display: inline; }
